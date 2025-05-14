@@ -1,164 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Static Website</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f0f4f8;
-            color: #333333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #0078d7;
-            color: white;
-            padding: 1.5rem 2rem;
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-        }
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: #0078d7;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-        }
-        p {
-            font-size: 1.25rem;
-            max-width: 600px;
-            line-height: 1.6;
-            color: #555;
-        }
-        footer {
-            background-color: #e1eaf6;
-            text-align: center;
-            padding: 1rem;
-            font-size: 0.9rem;
-            color: #666;
-            border-top: 1px solid #ccc;
-        }
-        a {
-            color: #0078d7;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.3s ease;
-        }
-        a:hover {
-            border-bottom-color: #0078d7;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharun Thomas - Senior Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>My Static Website</header>
-    <main>
-        <h1>Welcome to My Static Site!</h1>
-        <p>This is a simple, clean, and modern static website template perfect for GitHub Pages deployment. You can customize this page by editing the HTML and CSS here.</p>
-        <p>Explore more by visiting <a href="https://github.com/">GitHub</a>.</p>
+    <header>
+        <div class="container">
+            <h1>Sharun Thomas</h1>
+            <p>Senior Software Engineer</p>
+            <p>Email: <a href="mailto:sharunthomas94@gmail.com">sharunthomas94@gmail.com</a></p>
+            <p>Phone: +91 86062 75934</p>
+            <p>Location: Idukki, Kerala, India</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#strengths">Strengths</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="strengths">
+            <h2>Strengths</h2>
+            <ul>
+                <li>Team Player</li>
+                <li>Good Interaction Skills</li>
+                <li>Strong Object-Oriented Design Skills</li>
+                <li>Attention to Detail</li>
+                <li>Leader</li>
+                <li>Flexible</li>
+                <li>Can Handle Multiple Roles</li>
+                <li>Continuous Learning</li>
+                <li>Frameworks Mastery (Spring Boot)</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-set">
+                <div class="skill">Java</div>
+                <div class="skill">Spring Boot</div>
+                <div class="skill">Micro-services</div>
+                <div class="skill">Hibernate ORM</div>
+                <div class="skill">OAuth, JWT</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">AWS</div>
+                <div class="skill">Angular</div>
+                <div class="skill">JavaScript, TypeScript</div>
+                <div class="skill">Git, SVN</div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>B.Tech in Electronics and Communication Engineering</strong> - CGPA: 8.1</p>
+            <p>Thangal Kunju Musaliar College of Engineering, Kollam (Aug 2013 – June 2017)</p>
+            <p><strong>HSE in Computer Science</strong> - 90%</p>
+            <p>St. Ephrem’s HSS, Mannanam (June 2010 – May 2012)</p>
+            <p><strong>Tenth</strong> - 95%</p>
+            <p>St. Ephrem’s HSS, Mannanam (May 2010)</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>6+ years of experience in Object Oriented Design and Coding.</p>
+            <p>Exposure to all phases of software development life cycle from requirement analysis to implementation.</p>
+            <p>Experience in the development of applications using Java, Spring Boot, and Microservice technologies.</p>
+            <p>Mentored junior developers and resolved complex technical issues.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Medical Platform - Virtual Medical Practice</h3>
+            <p>Back-end development using Java, Spring Boot.</p>
+            <h3>Clinical Data Validating Tool</h3>
+            <p>Developed REST service APIs using Java Spring Boot framework.</p>
+            <h3>Logistics Application</h3>
+            <p>Worked as an Angular developer and back-end developer.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing Basketball</li>
+                <li>Training Gym Workouts</li>
+                <li>Watching Movies</li>
+            </ul>
+        </section>
     </main>
+
     <footer>
-        &copy; 2024 My Static Website. All rights reserved.
+        <p>&copy; 2023 Sharun Thomas</p>
     </footer>
-</body>
-</html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Career Showcase</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Software Engineer | Tech Enthusiast | Problem Solver</p>
-    <a href="#" class="button">Download Resume</a>
-  </header>
-
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Passionate software engineer with X years of experience building scalable web applications. Specialized in backend services using Spring Boot and frontend with React. Always eager to learn and solve real-world problems with elegant solutions.</p>
-    </section>
-
-    <section>
-      <h2>Career Timeline</h2>
-      <div class="timeline">
-        <div class="card">
-          <h3>Senior Software Engineer @ XYZ Corp</h3>
-          <p><em>Jan 2022 – Present</em></p>
-          <ul>
-            <li>Led migration to Spring Boot 3 and Java 17</li>
-            <li>Architected microservices for high-performance applications</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>Software Engineer @ ABC Ltd</h3>
-          <p><em>July 2019 – Dec 2021</em></p>
-          <ul>
-            <li>Built RESTful APIs and integrated third-party services</li>
-            <li>Wrote automated tests and maintained CI/CD pipelines</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Skills & Tools</h2>
-      <div class="skills-grid">
-        <div>Java</div>
-        <div>Kotlin</div>
-        <div>Spring Boot</div>
-        <div>React</div>
-        <div>Docker</div>
-        <div>GitHub</div>
-        <div>Node.js</div>
-        <div>PostgreSQL</div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="card">
-          <h3>Legacy Suppression Manager</h3>
-          <p>A Spring Boot-based platform to manage communication suppressions for legacy users. Integrated OpenAPI and ECS deployments.</p>
-        </div>
-        <div class="card">
-          <h3>Template Finder</h3>
-          <p>Frontend tool built in React to locate and manage document templates for internal users. Implemented search, filter, and category views.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <h2>Contact</h2>
-    <p>
-      <a href="mailto:you@example.com">Email</a> |
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
-    </p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
