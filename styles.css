@@ -1,76 +1,24 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-nav {
-    background: #35424a;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-section {
-    padding: 20px;
-    margin: 10px 0;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #35424a;
-}
-
-.skill-set {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skill {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+  body {
+      background-color: white;
+      color: black;
+      font-family: 'Your Font', sans-serif;
+  }
+  
+  h1, h2 {
+      font-weight: bold;
+  }
+  
+  .vertical-line {
+      width: 5px;
+      background-color: yellow;
+      height: 100px; /* Adjust the height as needed */
+  }
+  
+  button {
+      background-color: transparent;
+      border: 2px solid pink;
+      color: pink;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
