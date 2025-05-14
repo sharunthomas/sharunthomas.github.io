@@ -1,4 +1,5 @@
-// Add any interactive JavaScript functionality here
-document.addEventListener('DOMContentLoaded', function() {
-    console.log("Welcome to Sharun Thomas's Resume Website!");
-});
+function checkResume() {
+    alert("Navigate to the resume section or link.");
+    // You can modify this to redirect to your resume page
+    // window.location.href = "resume.html"; // Example redirect
+}
